@@ -15,9 +15,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+//使用java装配bean
 @Configuration
 //@ComponentScan
 public class CDPlayerConfig {
+
 
     @Bean
     public CompactDisc sgtPeppers(){

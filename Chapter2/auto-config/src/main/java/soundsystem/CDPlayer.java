@@ -18,30 +18,35 @@ import org.springframework.stereotype.Component;
 public class CDPlayer implements MediaPlayer {
 
 
+
     private CompactDisc cd;
 
-    public CompactDisc getCd() {
+
+
+    /*public CompactDisc getCd() {
         return cd;
     }
 
     public void setCd(CompactDisc cd) {
         this.cd = cd;
-    }
+    }*/
 
-    @Autowired(required = false)  //如果没有匹配的bean，则处于未装配状态，不抛出异常
+    //@Autowired(required = false)
+    // 如果没有匹配的bean，则处于未装配状态，不抛出异常
     //但如果代码中没有null检查，会抛出空指针异常
+    /*@Autowired
     public CDPlayer(CompactDisc cd) {
         this.cd = cd;
-    }
+    }*/
 
     public void play() {
         cd.play();
     }
 
-    @Autowired
+   /* @Autowired
     public void setCompactDisc(CompactDisc cd){
         this.cd = cd;
-    }
+    }*/
 
 
 }
