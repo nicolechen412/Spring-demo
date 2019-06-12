@@ -5,14 +5,13 @@
  * Description:
  */
 
-package soundsystem;/*
+package soundSystem;/*
  * author: nicole
  * date: 2019/4/1
  * desc:
  */
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 //使用java装配bean
