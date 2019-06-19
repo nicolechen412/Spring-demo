@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="C3_scope:war">
+    <output-path>$PROJECT_DIR$/C3_scope/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>C3_scope</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="C3_scope.war">
+      <element id="artifact" artifact-name="C3_scope:war exploded" />
+    </root>
+  </artifact>
+</component>

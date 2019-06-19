@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2a55050-9ccf-4716-8ca4-e3c804480742" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C3_conditional/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/MagicBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/MagicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/MagicExistsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_conditional/src/test/java/com/nicole/MagicExistsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_externals/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_externals/src/main/java/groupId/BlankDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_externals/src/main/resources/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentInjectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/Unique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/main/resources/scoped-beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScannedConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScopedBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ExplicitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ScopedBeanTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/BraveKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/BraveKnight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/DamselRescuingKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/DamselRescuingKnight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/KnightMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/KnightMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/Minstrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/Minstrel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/Quest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/RescueDamselQuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/RescueDamselQuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/SlayDragonQuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/SlayDragonQuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/java/com/knights/config/KnightConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/java/com/knights/config/KnightConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/resources/META-INF.spring/knight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/resources/META-INF.spring/knight.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/src/test/java/com/knights/BraveKnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/src/test/java/com/knights/BraveKnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/target/classes/META-INF.spring/knight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/target/classes/META-INF.spring/knight.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/knight/target/test-classes/com/knights/BraveKnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/C1_knight/target/test-classes/com/knights/BraveKnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/main/java/soundsystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/CDPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/main/java/soundsystem/CDPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/CDPlayerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/main/java/soundsystem/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/main/java/soundsystem/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/main/java/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/SgtPeppers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/main/resources/app-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/main/resources/app-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/src/test/java/soundsystem/CDPlayerConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/src/test/java/soundsystem/CDPlayerConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/auto-config/target/test-classes/soundsystem/CDPlayerConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/C2_auto-config/target/test-classes/soundsystem/CDPlayerConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/BlankDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/BlankDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/CDPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/CDPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/CDPlayerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/SgtPeppers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/collections/BlankDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/collections/BlankDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/properties/BlankDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/properties/BlankDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/java/soundSystem/properties/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/java/soundSystem/properties/CDPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/resources/app-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/resources/app-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/webapp/WEB-INF/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/xmlConfig/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C2_xmlConfig/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/src/main/java/com/nicole/dataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/src/main/java/com/nicole/dataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/src/main/resources/datesource-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/src/main/resources/datesource-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/src/main/resources/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/src/main/resources/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/profile/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/C3_profile/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/Chapter1/knight/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter2/xmlConfig/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter2/auto-config/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter3/profile/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter3/conditional/src/main/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter3/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter3/conditional/target/" />
+    <ignored path="$PROJECT_DIR$/C2_auto-config/target/" />
+    <ignored path="$PROJECT_DIR$/C3_conditional/target/" />
+    <ignored path="$PROJECT_DIR$/C3_profile/target/" />
+    <ignored path="$PROJECT_DIR$/C2_xmlConfig/target/" />
+    <ignored path="$PROJECT_DIR$/C1_knight/target/" />
+    <ignored path="$PROJECT_DIR$/C3_scope/target/" />
+    <ignored path="$PROJECT_DIR$/C3_externals/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ExplicitConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScopedBeanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-226">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_conditional/src/test/java/com/nicole/MagicExistsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_externals/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ScopedBeanTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="175" column="21" selection-start-line="34" selection-start-column="7" selection-end-line="175" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_externals/src/main/java/groupId/BlankDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentInjectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C3_externals/src/main/resources/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TestNG Test Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>junit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Chapter3/profile/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/src/main/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter3/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/src/main/java/com/nicole/MagicConditional.java" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/src/main/java/com/nicole/MagicBean.java" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/src/main/java/com/nicole/MagicConfig.java" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/src/main/java/com/nicole/MagicExistsCondition.java" />
+        <option value="$PROJECT_DIR$/Chapter3/conditional/src/test/java/com/nicole/MagicExistsTest.java" />
+        <option value="$PROJECT_DIR$/C2_auto-config/pom.xml" />
+        <option value="$PROJECT_DIR$/C3_conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/C2_xmlConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/unique.java" />
+        <option value="$PROJECT_DIR$/C3_profile/pom.xml" />
+        <option value="$PROJECT_DIR$/C1_knight/pom.xml" />
+        <option value="$PROJECT_DIR$/C3_scope/pom.xml" />
+        <option value="$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/notepad.java" />
+        <option value="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ScopedBeanTest.java" />
+        <option value="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScannedConfig.java" />
+        <option value="$PROJECT_DIR$/C3_scope/src/main/resources/scoped-beans.xml" />
+        <option value="$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/ExplicitConfig.java" />
+        <option value="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ScopedBeanTests.java" />
+        <option value="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScannedScopedBeanTest.java" />
+        <option value="$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScopedBeanTest.java" />
+        <option value="$PROJECT_DIR$/C3_conditional/src/test/java/com/nicole/MagicExistsTest.java" />
+        <option value="$PROJECT_DIR$/C3_externals/src/main/java/groupId/BlankDisc.java" />
+        <option value="$PROJECT_DIR$/C3_externals/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/C3_externals/pom.xml" />
+        <option value="$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentConfig.java" />
+        <option value="$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentInjectionTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="177" />
+    <option name="y" value="205" />
+    <option name="width" value="1635" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="groupId" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="C3_externals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="groupId" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560947760004" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SpringiA4_SourceCode/Chapter_03/conditional" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nicole" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nicole" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nicole" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\Spring-demo\C3_scope\src\main\resources" />
+      <recent name="D:\JavaProject\Spring-demo\C3_scope" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\Spring-demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android JUnit.EnvironmentInjectionTest$InjectFromProperties.assertBlankDiscProperties">
+    <configuration name="EnvironmentInjectionTest$InjectFromProperties.assertBlankDiscProperties" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+      <module name="C3_externals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="groupId.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="groupId" />
+      <option name="MAIN_CLASS_NAME" value="groupId.EnvironmentInjectionTest$InjectFromProperties" />
+      <option name="METHOD_NAME" value="assertBlankDiscProperties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentScannedScopedBeanTest.testProxyScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C3_scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicole.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicole" />
+      <option name="MAIN_CLASS_NAME" value="com.nicole.ComponentScannedScopedBeanTest" />
+      <option name="METHOD_NAME" value="testProxyScope" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentScopedBeanTest$ComponentScannedScopedBeanTest.testProxyScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C3_scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicole.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicole" />
+      <option name="MAIN_CLASS_NAME" value="com.nicole.ComponentScopedBeanTest$ComponentScannedScopedBeanTest" />
+      <option name="METHOD_NAME" value="testProxyScope" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicExistsTest.shouldNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C3_conditional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicole.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicole" />
+      <option name="MAIN_CLASS_NAME" value="com.nicole.MagicExistsTest" />
+      <option name="METHOD_NAME" value="shouldNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScopedBeanTests$XMLConfigScopedBeanTest.testProxyScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C3_scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicole.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicole" />
+      <option name="MAIN_CLASS_NAME" value="com.nicole.ScopedBeanTests$XMLConfigScopedBeanTest" />
+      <option name="METHOD_NAME" value="testProxyScope" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.EnvironmentInjectionTest$InjectFromProperties.assertBlankDiscProperties" />
+        <item itemvalue="JUnit.MagicExistsTest.shouldNotNull" />
+        <item itemvalue="JUnit.ComponentScopedBeanTest$ComponentScannedScopedBeanTest.testProxyScope" />
+        <item itemvalue="JUnit.ComponentScannedScopedBeanTest.testProxyScope" />
+        <item itemvalue="JUnit.ScopedBeanTests$XMLConfigScopedBeanTest.testProxyScope" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2a55050-9ccf-4716-8ca4-e3c804480742" name="Default Changelist" comment="" />
+      <created>1560394899726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560394899726</updated>
+      <workItem from="1560394901750" duration="1402000" />
+      <workItem from="1560848979962" duration="6865000" />
+      <workItem from="1560942170876" duration="4832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ComponentScannedScopedBeanTest_testProxyScope - 2019.06.19 at 20h 06m 30s.xml">
+      <configuration name="ComponentScannedScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScopedBeanTests$ComponentScannedScopedBeanTest_testProxyScope - 2019.06.19 at 20h 07m 18s.xml">
+      <configuration name="ScopedBeanTests$ComponentScannedScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScopedBeanTests$ComponentScannedScopedBeanTest_testSingletonScope - 2019.06.19 at 20h 07m 31s.xml">
+      <configuration name="ScopedBeanTests$ComponentScannedScopedBeanTest.testSingletonScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComponentScannedScopedBeanTest_testProxyScope - 2019.06.19 at 20h 08m 46s.xml">
+      <configuration name="ComponentScannedScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScopedBeanTests$XMLConfigScopedBeanTest_testProxyScope - 2019.06.19 at 20h 10m 30s.xml">
+      <configuration name="ScopedBeanTests$XMLConfigScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComponentScannedScopedBeanTest_testProxyScope - 2019.06.19 at 20h 11m 41s.xml">
+      <configuration name="ComponentScannedScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComponentScopedBeanTest$ComponentScannedScopedBeanTest_testProxyScope - 2019.06.19 at 20h 16m 15s.xml">
+      <configuration name="ComponentScopedBeanTest$ComponentScannedScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComponentScopedBeanTest$ComponentScannedScopedBeanTest_testProxyScope - 2019.06.19 at 20h 16m 23s.xml">
+      <configuration name="ComponentScopedBeanTest$ComponentScannedScopedBeanTest.testProxyScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MagicExistsTest_shouldNotNull - 2019.06.19 at 20h 16m 55s.xml">
+      <configuration name="MagicExistsTest.shouldNotNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MagicExistsTest_shouldNotNull - 2019.06.19 at 20h 17m 17s.xml">
+      <configuration name="MagicExistsTest.shouldNotNull" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13099000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20241287" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24301676" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.32960895" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3170163" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/C1_knight/src/main/java/com/knights/KnightMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/conditional/src/main/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Chapter3/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/MagicBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/MagicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_conditional/src/main/java/com/nicole/MagicExistsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_conditional/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5075">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C2_xmlConfig/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4959">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1_knight/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1084">
+          <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C2_auto-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5070">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C2_auto-config/src/main/java/soundsystem/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_profile/src/main/java/com/nicole/dataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_profile/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_profile/src/main/resources/datesource-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/Unique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/main/resources/scoped-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4673">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/main/java/com/nicole/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScannedConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ExplicitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ScopedBeanTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_scope/src/test/java/com/nicole/ComponentScopedBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_conditional/src/test/java/com/nicole/MagicExistsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_externals/src/main/java/groupId/BlankDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_externals/src/test/java/groupId/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="175" column="21" selection-start-line="34" selection-start-column="7" selection-end-line="175" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_externals/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_externals/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_externals/src/test/java/groupId/EnvironmentInjectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>C1_knight:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

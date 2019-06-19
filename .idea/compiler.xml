@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="C1_knight" />
+        <module name="C2_auto-config" />
+        <module name="C2_xmlConfig" />
+        <module name="C3_conditional" />
+        <module name="C3_externals" />
+        <module name="C3_profile" />
+        <module name="C3_scope" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="C1_knight" target="1.7" />
+      <module name="C2_auto-config" target="1.8" />
+      <module name="C2_xmlConfig" target="1.8" />
+      <module name="C3_conditional" target="1.7" />
+      <module name="C3_externals" target="1.7" />
+      <module name="C3_profile" target="1.7" />
+      <module name="C3_scope" target="1.7" />
+      <module name="conditional (1)" target="1.7" />
+      <module name="Spring-demo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

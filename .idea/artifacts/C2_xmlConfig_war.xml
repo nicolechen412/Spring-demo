@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="C2_xmlConfig:war">
+    <output-path>$PROJECT_DIR$/C2_xmlConfig/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>C2_xmlConfig</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="C2_xmlConfig-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="C2_xmlConfig:war exploded" />
+    </root>
+  </artifact>
+</component>

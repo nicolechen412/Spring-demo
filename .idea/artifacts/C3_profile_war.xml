@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="C3_profile:war">
+    <output-path>$PROJECT_DIR$/C3_profile/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>C3_profile</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="C3_profile.war">
+      <element id="artifact" artifact-name="C3_profile:war exploded" />
+    </root>
+  </artifact>
+</component>

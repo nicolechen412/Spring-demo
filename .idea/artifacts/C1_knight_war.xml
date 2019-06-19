@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="C1_knight:war">
+    <output-path>$PROJECT_DIR$/C1_knight/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>C1_knight</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="C1_knight.war">
+      <element id="artifact" artifact-name="C1_knight:war exploded" />
+    </root>
+  </artifact>
+</component>
