@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Scope;
 public class ExplicitConfig {
 
     @Bean
-    @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     public Notepad notepad(){
         return new Notepad();
     }

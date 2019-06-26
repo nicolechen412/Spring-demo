@@ -36,4 +36,9 @@ public class BlankDisc implements CompactDisc {
         }
     }
 
+    @Override
+    public void playTrack(int number) {
+
+    }
+
 }

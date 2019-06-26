@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/C3_externals/C3_externals.iml" filepath="$PROJECT_DIR$/C3_externals/C3_externals.iml" />
       <module fileurl="file://$PROJECT_DIR$/C3_profile/C3_profile.iml" filepath="$PROJECT_DIR$/C3_profile/C3_profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/C3_scope/C3_scope.iml" filepath="$PROJECT_DIR$/C3_scope/C3_scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C4_SpringAOP/C4_SpringAOP.iml" filepath="$PROJECT_DIR$/C4_SpringAOP/C4_SpringAOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-demo.iml" filepath="$PROJECT_DIR$/.idea/Spring-demo.iml" />
     </modules>
   </component>

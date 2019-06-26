@@ -13,4 +13,5 @@ package soundSystem;/*
 
 public interface CompactDisc {
     void play();
+    void playTrack(int number);
 }

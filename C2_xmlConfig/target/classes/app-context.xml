@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--<bean id="compactDisc" class="soundsystem.SgtPeppers"/>-->
+
+    <!--constructor-arg将ID为compactDisc的bean引用传递到CDPlayer构造器中-->
+    <bean id="cdPlayer" class="soundSystem.CDPlayer">
+        <property name="compactDisc" ref="compactDisc"/>
+       <!-- <constructor-arg ref="compactDisc"/>-->
+    </bean>
+
+    <!-- c-命名空间，cd为构造器参数名 -->
+    <!--<bean id="cdPlayer" class="soundsystem.CDPlayer"
+     c:cd-ref="compactDisc"/>-->
+
+    <!--方法一-->
+   <!-- <bean id="compactDisc" class="soundSystem.BlankDisc">
+        <constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band"/>
+        <constructor-arg value="The Beatles"/>
+    </bean>-->
+
+    <!-- c-命名空间，0和1为参数索引 -->
+    <!--方法二，使用构造器参数名。如果只有一个参数，可以只使用下划线-->
+   <!-- <bean id="compactDisc" class="soundSystem.BlankDisc"
+          c:_title="Sgt. Pepper's Lonely Hearts Club Band"
+          c:_artist="The Beatles"/>-->
+    <!--方法三，使用参数索引-->
+     <bean id="compactDisc" class="soundSystem.BlankDisc"
+           c:_0="Sgt. Pepper's Lonely Hearts Club Band"
+           c:_1="The Beatles"/>
+
+    <!--属性注入-->
+    <bean id="compactDisc2" class="soundSystem.properties.BlankDisc">
+        <property name="title" value="Sgt. Pepper‘s Lonely Hearts Club Band"/>
+        <property name="artist" value="The Beatles"/>
+        <property name="tracks">
+                <list>
+                    <value>fefr</value>
+                    <value>bhbf</value>
+                    <value>wrrr</value>
+                </list>
+
+        </property>
+    </bean>
+
+    <!--构造器注入-->
+    <bean id="compactDisc3" class="soundSystem.collections.BlankDisc">
+        <constructor-arg value=" Sgt. Pepper's Lonely Hearts Club Band" />
+        <constructor-arg value=" The Beatles" />
+        <constructor-arg>
+            <list>
+                <value>Sgt. Pepper's Lonely Hearts Club Band</value>
+                <value>With a Little Help from My Friends</value>
+                <value>Lucy in the Sky with Diamonds</value>
+                <value>Getting Better</value>
+                <value>Fixing a Hole</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>

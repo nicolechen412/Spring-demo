@@ -12,7 +12,7 @@ import static org.junit.Assert.assertSame;
 
 public class ScopedBeanTests {
 
-  @RunWith(SpringJUnit4ClassRunner.class)
+  /*@RunWith(SpringJUnit4ClassRunner.class)
   @ContextConfiguration(classes=ComponentScannedConfig.class)
   public static class ComponentScannedScopedBeanTest {
     
@@ -79,7 +79,7 @@ public class ScopedBeanTests {
       assertSame(thing1, thing2);
     }
     
-  }
+  }*/
 
 
 }

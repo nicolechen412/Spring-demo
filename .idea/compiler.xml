@@ -13,6 +13,7 @@
         <module name="C3_externals" />
         <module name="C3_profile" />
         <module name="C3_scope" />
+        <module name="C4_SpringAOP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="C3_externals" target="1.7" />
       <module name="C3_profile" target="1.7" />
       <module name="C3_scope" target="1.7" />
+      <module name="C4_SpringAOP" target="1.7" />
       <module name="conditional (1)" target="1.7" />
       <module name="Spring-demo" target="1.7" />
     </bytecodeTargetLevel>
